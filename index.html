@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,11 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Formulario - Versión 1</title>
   <link rel="stylesheet" href="estilos.css" />
+  <style>
+    .enviado {
+      background-color: #28a745 !important; 
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <h1>Formulario de Datos</h1>
-    <form>
+    <form id="formulario">
       <label for="nombre">Nombre</label>
       <input type="text" id="nombre" name="nombre" required />
 
@@ -32,8 +36,19 @@
       <label for="equipo">Equipo de fútbol favorito</label>
       <input type="text" id="equipo" name="equipo" />
 
-      <button type="submit">Enviar</button>
+      <button type="submit" id="boton-enviar">Enviar</button>
     </form>
   </div>
+
+  <script>
+    const formulario = document.getElementById('formulario');
+    const boton = document.getElementById('boton-enviar');
+
+    formulario.addEventListener('submit', function(event) {
+      event.preventDefault(); 
+      boton.classList.add('enviado');
+      alert('¡Formulario enviado con éxito!');
+    });
+  </script>
 </body>
 </html>
