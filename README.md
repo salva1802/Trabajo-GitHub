@@ -16,9 +16,11 @@ Estos datos se introducen a través de un formulario HTML clásico. Por el momen
 ## Estructura del proyecto
 
 ```bash
-formulario-html/
-├── index.html        # Contiene el formulario
-└── README.md         # Este archivo
+/formulario-peticion-datos/
+├── index.html           ← Versión 1
+├── index-v2.html        ← Versión 2
+├── style.css
+├── README.md
 Esto es un trabajo de Github y git de prueba para practicar su uso y ver como funciona
 
 Proyecto hecho por:
