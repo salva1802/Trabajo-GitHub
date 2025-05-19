@@ -6,24 +6,21 @@ Este repositorio contiene un proyecto básico en HTML que muestra un formulario 
 
 El formulario pide al usuario los siguientes datos:
 
-- Nombre
-- Apellido
-- Fecha de nacimiento
-- Lugar de nacimiento
-
-Estos datos se introducen a través de un formulario HTML clásico. Por el momento, **no se almacenan ni se envían a ningún servidor** 
-
 ## Estructura del proyecto
 
 ```bash
-/formulario-peticion-datos/
-├── index.html           ← Versión 1
-├── index-v2.html        ← Versión 2
-├── style.css
-├── README.md
+version-2-formulario
+## 📂 Estructura de archivos
+
+📁 /version-2-formulario/
+├── index.html     ← Formulario versión 2  
+├── estilos.css    ← Estilos correspondientes  
+├── README.md      ← Este archivo con detalles del proyecto  
+└── LICENSE        ← Licencia del repositorio
+=======
 Esto es un trabajo de Github y git de prueba para practicar su uso y ver como funciona
 
 Proyecto hecho por:
 Manuel Fernández
-Enrique Gonzalez
-Salva Alcántara 
+Enrique Gonzalez Cuevas
+Salvador Alcántara España
